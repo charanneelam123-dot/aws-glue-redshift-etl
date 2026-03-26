@@ -283,3 +283,4 @@ aws glue start-job-run \
 | `dim_product` | `KEY(product_id)` | `(product_category, product_id)` | Product catalogue |
 | `dim_date` | `ALL` | `full_date` | Date dimension (small, broadcast) |
 | `etl_audit_log` | `ALL` | `started_at` | ETL run metadata |
+
